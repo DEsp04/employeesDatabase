@@ -15,8 +15,8 @@ const Employee = new Schema(
       state: { type: String, required: true },
       zip: { type: String, required: true },
     }
-    
-  }
+  },
+  {timestamps: true},
 );
 
 module.exports = mogoose.model('employee', Employee);
