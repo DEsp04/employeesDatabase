@@ -1,6 +1,6 @@
 const db = require("../db");
 //child
-const Employee = require("../models/employee");
+const Employee = require("../model/employee");
 
 
 
@@ -17,7 +17,7 @@ const main = async () => {
       email: "jack_nicolson@gmail.com",
       job_title: "actor",
       address: {
-        stree: "2112 Chestnut Avenue",
+        street: "2112 Chestnut Avenue",
         city: "Los Angeles",
         state: "California",
         zip: "12346",
@@ -29,7 +29,7 @@ const main = async () => {
       email: "marlon_brando@gmail.com",
       job_title: "actor",
       address: {
-        stree: "6556 Pinetree Avenue",
+        street: "6556 Pinetree Avenue",
         city: "Los Angeles",
         state: "California",
         zip: "12346",
@@ -41,7 +41,7 @@ const main = async () => {
       email: "oz@gmail.com",
       job_title: "medical doctor",
       address: {
-        stree: "4329 Oaktree Avenue",
+        street: "4329 Oaktree Avenue",
         city: "Los Angeles",
         state: "California",
         zip: "12346",
@@ -53,7 +53,7 @@ const main = async () => {
       email: "liz_banks@gmail.com",
       job_title: "actress",
       address: {
-        stree: "9625 Redondo Avenue",
+        street: "9625 Redondo Avenue",
         city: "Los Angeles",
         state: "California",
         zip: "12346",
@@ -65,12 +65,12 @@ const main = async () => {
       email: "daniella@gmail.com",
       job_title: "chemical engineer",
       address: {
-        stree: "2116 Silverstreak Avenue",
+        street: "2116 Silverstreak Avenue",
         city: "Los Angeles",
         state: "California",
         zip: "12346",
       }
-    },
+    }
   ];
 
 
